@@ -1,0 +1,81 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "login": "admin",
+      "password": "admin",
+      "name": "Admin",
+      "role": "admin",
+      "mail": "admin@gmail.com",
+      "phone": "+79216661234"
+    },
+    {
+      "id": 2,
+      "login": "user1",
+      "password": "123",
+      "name": "User1",
+      "role": "user",
+      "mail": "user@mail.ru",
+      "phone": "+79213222546"
+    },
+    {
+      "id": 3,
+      "login": "user2",
+      "password": "123",
+      "name": "User2",
+      "role": "user",
+      "mail": "user123@mail.ru",
+      "phone": "+79213222542"
+    },
+    {
+      "id": 4,
+      "login": "aboba",
+      "password": "111",
+      "name": "aboba",
+      "role": "user",
+      "mail": "sergei110898@gmail.com",
+      "phone": "+11111111111"
+    },
+    {
+      "id": 5,
+      "login": "asdasdad",
+      "password": "111",
+      "name": "asdasdad",
+      "role": "user",
+      "mail": "s11ergei120898@gmail.com",
+      "phone": "+88888888888"
+    }
+  ],
+  "notes": [
+    {
+      "user": "User1",
+      "header": "Купить тостер",
+      "description": "Заехать в днс и забрать тостер к НГ",
+      "date": "04.01.2023",
+      "id": 2,
+      "complete": true
+    },
+    {
+      "user": "User2",
+      "header": "Тостер",
+      "description": "Выбрать тостер",
+      "date": "29.12.2022",
+      "id": 11,
+      "complete": true
+    },
+    {
+      "user": "User2",
+      "header": "Купить подарок",
+      "description": "Чайник и тостер",
+      "date": "30.12.2022",
+      "id": 12
+    },
+    {
+      "user": "User2",
+      "header": "Сделать задание",
+      "description": "Тестовое задание",
+      "date": "22.01.2023",
+      "id": 13
+    }
+  ]
+}

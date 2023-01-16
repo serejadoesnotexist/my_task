@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="shortcut icon" href="#">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> 
+       
+        <title>Регистрация</title>
+    </head>
+    <body>
+        <form class="login">
+            <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="floatingInput" placeholder="Username" required>
+                
+                <label for="floatingInput">Логин</label>
+            </div>
+
+            <div class="form-floating mb-3">
+                <input type="password" class="form-control" id="floatingPassword" placeholder="Password" required>
+                <label for="floatingPassword">Пароль</label>
+            </div>
+
+            <div class="form-floating mb-3">
+                <input type="password" class="form-control" id="floatingPasswordRepeat" placeholder="PasswordRepeat" required>
+                <label for="floatingPassword">Повтор пароля</label>
+            </div>
+
+            <div class="form-floating mb-3">
+                <input type="email" class="form-control" id="email" placeholder="email" required>
+                <label for="floatingPassword">Почта</label>
+            </div>
+
+            <div class="form-floating mb-3">
+                <input type="tel" class="form-control" id="number" placeholder="Number" required pattern="[+][0-9]{11}">
+                <label for="floatingPassword">Номер</label>
+            </div>
+            
+            <div class="col-12">
+                <button type="submit" class="btn btn-primary" id="buttonAccept">Зарегистрироваться</button>
+            </div>        
+        </form>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <script src="./registration.js"></script>
+    </body>
+</html>
